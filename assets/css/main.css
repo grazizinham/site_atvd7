@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.cabecalho {
+    background-color: var(--color2);
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.cabecalho__container {
+    width: 90%;
+    max-width: 1228px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1228px;
+    display: flex;
+}
+
+.cabecalho__logo {
+    width: 80px;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+.cabecalho__menu a {
+    text-decoration: none;
+    color: var(--color4);
+    margin-right: 15px;
+    font-size: 100;
+    font-weight: normal;
+   
+}
+
+.cabecalho__botao1 {
+   
+    color: var(--color1);
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cabecalho__botao2 {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apresentacao {
+    text-align: center;
+    padding: 80px 0 20px;
+}
+
+.apresentacao__titulo {
+    font-size: 50px;
+    color: var(--color4);
+}
+
+.apresentacao__texto {
+    font-size: 18px;
+    padding: 20px;
+    color: var(--color4);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 4px;
+   
+}
+.banner__Restaurante {
+    width: 404px;
+    height: 214px;
+    border-radius: 20px;
+    background-color: var(--color1);
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 25px;
+}
+.banner__mercado {
+    width: 404px;
+    height: 214px;
+    border-radius: 20px;
+    background-color: var(--color7);
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 25px;
+}
+
+.banner__titulo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.banner__tituloRes{
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.banner__botaoRest,
+.banner__botaoMec {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color2);
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.banner__botaoRest {
+    background-color: var(--color5);
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+
+.banner__botaoMec {
+    background-color: var(--color6);
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+
+.banner__Hamburguer{
+    position: relative;
+    top: -57px;
+    left: 150px;
+    width: 230px;
+}
+.banner__Carrinho{
+    position: relative;
+    top: -77px;
+    left: 150px;
+    width: 240px;
+}
